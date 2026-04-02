@@ -482,6 +482,7 @@ A collection of _moonfly_-flavoured extras for various terminals and tools:
 | [Ghostty](https://mitchellh.com/ghostty)                   | [extras/ghostty](extras/moonfly-ghostty.conf)
 | [iTerm2](https://iterm2.com)                               | [extras/iterm2](extras/moonfly.itermcolors)
 | [kitty](https://sw.kovidgoyal.net/kitty)                   | [extras/kitty](extras/moonfly-kitty.conf)
+| [OpenCode](https://opencode.ai/)                           | [extras/opencode](extras/moonfly-opencode.json)
 | [Starship](https://starship.rs/)                           | [extras/starship](extras/moonfly-starship.toml)
 | [tmux](https://github.com/tmux/tmux)                       | [extras/tmux](extras/moonfly.tmux)
 | [WezTerm](https://wezfurlong.org/wezterm)                  | [extras/wezterm](extras/moonfly-wezterm.toml)
