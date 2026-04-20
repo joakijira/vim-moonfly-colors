@@ -26,7 +26,7 @@ let g:moonflyWinSeparator = get(g:, 'moonflyWinSeparator', 1)
 
 " Load theme style independently for Neovim and Vim.
 if has('nvim')
-    lua require("moonfly").style()
+    lua pcall(function() require("moonfly").style() end)
 else
     call moonfly#Style()
 end
