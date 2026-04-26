@@ -400,6 +400,10 @@ M.style = function()
   highlight(0, "healthHeadingChar", { link = "MoonflyBlue" })
   highlight(0, "helpHeader", { link = "MoonflyTurquoise" })
 
+  -- Neovim message highlights
+  highlight(0, "OkMsg", { link = "MoonflyLime" })
+  highlight(0, "StdoutMsg", { link = "MoonflyTurquoise" })
+
   -- Neovim Tree-sitter
   highlight(0, "@attribute", { link = "MoonflySky" })
   highlight(0, "@comment.error", { link = "MoonflyRed" })
