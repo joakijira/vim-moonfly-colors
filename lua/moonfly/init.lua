@@ -354,7 +354,7 @@ M.style = function()
   end
   highlight(0, "Ignore", { link = "MoonflySky" })
   highlight(0, "Underlined", { fg = emerald })
-  highlight(0, "QuickFixLine", { link = "MoonflyCurrentLine" })
+  highlight(0, "QuickFixLine", { bg = grey13 })
   highlight(0, "Delimiter", { link = "MoonflyWhite" })
   highlight(0, "qfFileName", { link = "MoonflyEmerald" })
   highlight(0, "qfLineNr", { link = "MoonflyGrey39" })
