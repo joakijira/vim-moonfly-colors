@@ -358,6 +358,7 @@ M.style = function()
   highlight(0, "Delimiter", { link = "MoonflyWhite" })
   highlight(0, "qfFileName", { link = "MoonflyEmerald" })
   highlight(0, "qfLineNr", { link = "MoonflyGrey39" })
+  highlight(0, "Dimmed", { link = "MoonflyGrey39" })
 
   -- Color column (after line 80)
   highlight(0, "ColorColumn", { bg = grey7 })
