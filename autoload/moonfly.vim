@@ -145,7 +145,7 @@ function! moonfly#Style() abort
     highlight! link Identifier MoonflyTurquoise
 
     " Color of titles
-    exec 'highlight Title guifg=' . s:orange . ' gui=none'
+    exec 'highlight Title guifg=' . s:sky . ' gui=none'
 
     " const, static
     highlight! link StorageClass MoonflyViolet
